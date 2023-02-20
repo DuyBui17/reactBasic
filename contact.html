@@ -1,0 +1,173 @@
+<!DOCTYPE php>
+<php lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LuoiThanhThao</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="buttonPhone.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#" id="logo" "><i class="fa-sharp fa-regular fa-bird"></i>Lưới Thanh Thảo</a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="index.html">Sản Phẩm</a></li>
+                    <li><a class="active" href="contact.html">Liên hệ</a></li>
+
+                    <a href="#" id="close"><i class="fa fa-times"></i></a>
+                </ul>
+            </div>
+
+            <div id="mobile">
+                <a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fa fa-outdent"></i>
+            </div>
+        </section>
+        
+        <section id="page-header" class="contact-header">
+            
+            <h2>Liên hệ </h2>
+            <p>Hãy để lại số điện thoại, lời nhắn để được tư vấn</p>
+           
+        </section>
+
+        <div class="phone">
+                <a href="tel: 03723851715"><img src="img/phone.svg" alt=""></a>
+        </div>
+
+        <section id="contact-details" class="section-p1">
+            <div class="details">
+                <span>Liên lạc</span>
+                <h2>Ghé thăm địa điểm đại lý của chúng tôi hoặc liên hệ với chúng tôi ngay hôm nay để lựa chọn sản phẩm phù hợp</h2>
+                <h3>Cơ sở bán lưới</h3>
+                <div>
+                    <li>
+                        <i class="fas fa-location"></i>
+                        <p>Nga Trường, Nga Sơn, Thanh Hoá</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p>Duybui207@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0372385175/ 0327868763</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Cả tuần: 7h sáng - 7h tối</p>
+                    </li>
+                </div>
+            </div>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906.9504357982462!2d105.95021973580704!3d20.041243559878748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31366632c3c8d4eb%3A0x70163f3a42453bb2!2zTmdhIFRyxrDhu51uZywgTmdhIFPGoW4sIFRoYW5oIEhvw6EsIFZp4buHdCBOYW0!5e1!3m2!1svi!2s!4v1673454089674!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="form-details">
+            <form action="add-message.php" method="post">
+                <span>Để lại lời nhắn</span>
+                <h2>Chúng tôi sẽ tư vấn cho bạn</h2>
+                <input type="text" name="name" placeholder="Tên của bạn" require>
+                <input type="text" name="phone" placeholder="Số điện thoại">
+                <textarea id="" cols="30" rows="10" name="message" placeholder="Lời nhắn"></textarea>
+                <button class="normal">Gửi</button>
+            </form>
+
+            <div class="people">
+                <div>
+                    <img src="img/people/1.png" alt="">
+                    <p><span>Bùi Văn Duy</span> 
+                        Tư vấn viên <br>
+                        Phone: <a href="tel: 0372385175" class="phoneContact">0372385175</a><br>
+                        Email: Duybui207@gmail.com</p>
+                        
+                </div>
+                <div>
+                    <img src="img/people/3.png" alt="">
+                    <p><span>Bùi Thanh Thảo</span> 
+                        Tư vấn viên <br>
+                        Phone: <a href="tel: 0985667408" class="phoneContact">0985667408</a><br>
+                        Email: thaorubi@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Đăng kí tư vấn</h4>
+                <p>Để lại số điện thoại để tư vấn viên chủ động <span>tư vấn cho bạn.</span></p>
+
+            </div>
+            <div class="form">
+                <input type="text" placeholder="You email address">
+                <button class="normal">Đăng kí</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <a href="#" class="logo" "><i class="fa-sharp fa-regular fa-bird"></i>Lưới Thanh Thảo</a>
+                <h4>Liên hệ</h4>
+                <p><strong>Địa chỉ: </strong> Thôn Hợp Long 1, Nga Trường, Nga Sơn, Thanh Hoá</p>
+                <p><strong>Phone: </strong> 0372385175/ 0327868763 </p>
+                <p><strong>Hour: </strong> 7h sáng - 6h chiều, Cả Tuần </p>
+                <div class="follow">
+                    <h4>Theo dõi chúng tôi</h4>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/thao.bui.35175"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/thao.bui.35175"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/thao.bui.35175"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/thao.bui.35175"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+            <div class="copyright">
+                <p>© 2021, Tech2 etc - php CSS Ecommerce Template</p>
+            </div>
+        </footer>
+
+ 
+        <script src="script.js"></script>
+    </body>
+
+</php>

@@ -1,0 +1,48 @@
+.phone{
+    display: flex;
+    justify-items: right;
+    justify-content: left;
+
+}
+
+.phone a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: red ;
+    border-radius: 50%;
+    position: relative;
+}
+
+.phone a img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 15px;
+    animation: 1.5s infinite phone-animation;
+}
+
+@keyframes phone-animation{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(25deg);
+    }
+    20%{
+        transform: rotate(-25deg);
+    }
+    30%{
+        transform: rotate(25deg);
+    }
+    40%{
+        transform: rotate(-25deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
